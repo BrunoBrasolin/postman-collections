@@ -137,6 +137,18 @@
 				}
 			],
 			"id": "8c45b899-3370-4463-a4ea-281369d4101e"
+		},
+		{
+			"name": "Gemini",
+			"id": "5cd09a4b-49af-4742-99ec-a6e4ea317b81",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
 		}
 	]
 }
