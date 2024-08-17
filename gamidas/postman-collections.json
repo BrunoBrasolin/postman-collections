@@ -96,14 +96,14 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"message\": \"Qual é a divisão proporcional de 50 entre Bruno e Letícia?\",\r\n    \"language\": \"portuguese\"\r\n}",
+							"raw": "{\r\n    \"message\": \"Qual país mais conquistou medalhas de ouro nas olimpiadas de paris de 2024? Pesquise no Tavily\",\r\n    // \"message\": \"Qual é a divisão proporcional de 50 entre Bruno e Letícia?\",\r\n    \"language\": \"portuguese\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
 								}
 							}
 						},
-						"url": "{{URL_API_CHAT}}"
+						"url": "{{URL_API_CHAT}}/message"
 					},
 					"response": []
 				}
