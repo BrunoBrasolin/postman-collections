@@ -96,7 +96,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    // \"message\": \"Qual país mais conquistou medalhas de ouro nas olimpiadas de paris de 2024? Pesquise no Tavily\",\r\n    \"message\": \"Qual seu nome?\",\r\n    // \"message\": \"Qual é a divisão proporcional de 50 entre Leticia e Bruno?\",\r\n    \"language\": \"portuguese\"\r\n}",
+							"raw": "{\r\n    // \"message\": \"Qual país mais conquistou medalhas de ouro nas olimpiadas de paris de 2024? Pesquise no Tavily\",\r\n    // \"message\": \"Qual seu nome?\",\r\n    \"message\": \"Qual é a divisão proporcional de 25000 entre Leticia e Bruno?\",\r\n    \"language\": \"portuguese\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -104,6 +104,28 @@
 							}
 						},
 						"url": "{{URL_API_CHAT}}/message"
+					},
+					"response": []
+				},
+				{
+					"name": "Transcript Audio",
+					"id": "295183d8-9134-43ef-8e76-b03ac59ee03e",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{URL_API_CHAT}}/transcript_audio"
 					},
 					"response": []
 				}
