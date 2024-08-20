@@ -122,11 +122,7 @@
 								{
 									"key": "audio",
 									"type": "file",
-									"fileNotInWorkingDirectoryWarning": "This file isn't in your working directory. Teammates you share this request with won't be able to use this file. To make collaboration easier you can setup your working directory in Settings.",
-									"filesNotInWorkingDirectory": [
-										"/D:/Gamidas/api-chat/audio.wav"
-									],
-									"src": "/D:/Gamidas/api-chat/audio.wav"
+									"src": "/D:/Gamidas/audio.wav"
 								}
 							]
 						},
